@@ -1,0 +1,257 @@
+ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.titulo{
+    background-color:blanchedalmond;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px;
+}
+
+.titulo1{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 75%;
+}
+
+.elemento{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    height: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#elemento{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    height: 50%;
+    margin-top: 160px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.ultimo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    height: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 130px;
+}
+
+.elemento iframe{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer{
+   background-color: rgb(46, 139, 226);
+}
+
+.footer_content{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footer_contacts{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_contacts a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.footer_contacts a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.footer_contacts a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.footer_contacts a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+.hidden {
+    display: none;
+}
+  
+.botao {
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+  
+.botao:hover {
+background-color: #0056b3;
+}
+
+  
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+}
